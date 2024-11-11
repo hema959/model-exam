@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: rgb(201, 245, 250);
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 100%;
+    margin: 0 auto;
+    border: 3px solid #070001;
+    background-color: #fafefe;
+}
+a:focus, a:hover {
+    font-style: italic;
+}
+
+header {
+    padding: 1.5em 0 2em 0;
+    border-bottom: 3px solid #130102;
+        background-image: -moz-linear-gradient(
+        30deg, #cce5f4 0%, #f189b1 30%, rgb(160, 247, 245) 50%, #4ae5fa 80%, #8ed8f6 100%);
+    background-image: -webkit-linear-gradient(
+        30deg, #9ffafa 0%, #72d9f9 30%, rgb(96, 167, 238) 50%, #fffded 80%, #faead6 100%);
+    background-image: -o-linear-gradient(
+        30deg, #34c8e9 0%, #65c5f1 30%, rgb(97, 205, 241) 50%, #fffded 80%, #fcf2e7 100%);
+    background-image: linear-gradient(
+        30deg, #5ddfe9 0%, #75d4f1 30%, rgb(202, 237, 244) 50%, #ace6f8 80%, #dcebf5 100%);
+}
+header h2 {
+    font-size: 175%;
+    color: #0d0101;
+}
+header h3 {
+    font-size: 130%;
+    font-style: italic;
+}
+header img {
+    float: right;
+    padding: 0 30px;
+}
+.shadow {
+    text-shadow: 2px 2px 2px #96f0f8;
+}
+
+main {
+    clear: left;
+}
+
+section {
+    width: 70%;
+    float: left;
+    padding: 100px;
+}
+section h1 {
+    color: #010b0e;
+    font-size: 150%;
+    padding-top: .5em;
+    margin: 0;
+}
+section p {
+    padding-bottom: .5em;
+}
+
+article {
+    padding: .5em 0;
+}
+article h2 {
+    font-size: 115%;
+    padding: 0 0 .25em 0;
+}
+article img {
+    float: right;
+    size: 200;
+    margin: .5em 0 1em 1em;
+    border: 1px solid black;
+}
+aside {
+    width: 200px;
+    float: left;
+    padding: 0 0 20px 20px;
+}
+aside h2 {
+    color: #800000;
+    font-size: 100%;
+    padding: .6em 0 .25em 0;
+}
+
+aside h3 {
+    font-size: 105%;
+    padding-bottom: .25em;
+}
+aside img {
+    padding-bottom: 2em;
+}
+
+footer {
+    background-color: #f891e5;
+    clear: both;
+
+}
+footer p {
+    text-align: center;
+    color: rgb(6, 1, 1);
+    padding: 1em 0;
+}
+
